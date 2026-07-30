@@ -1,0 +1,8 @@
+[Unit]
+Description=Custom NVIDIA fan controller
+
+[Service]
+ExecStart=/usr/sbin/nvidia_fan_ctrl
+
+[Install]
+WantedBy=multi-user.target
